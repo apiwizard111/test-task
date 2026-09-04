@@ -4,6 +4,12 @@ A code documentation assistant. Point it at a repository, ask how the thing work
 
 I built this as a take-home. The goal was a working RAG loop with boring, inspectable engineering — not an agent framework demo.
 
+## Background
+
+Short clip on a past project — the problem, how I approached it, and what I took away.
+
+[Watch →](https://streamable.com/o854me)
+
 ## Quick setup
 
 You need Docker, or Python 3.12 + Node 22. An OpenAI-compatible API key is required for ingest and chat. Defaults are `gpt-4o-mini` + `text-embedding-3-small`. Groq works via `OPENAI_BASE_URL`: embeddings stay local, chat is taken from Groq's live `/models` list (currently `openai/gpt-oss-20b` — `llama-3.1-8b-instant` was shut down in Aug 2026).
